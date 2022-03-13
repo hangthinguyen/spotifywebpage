@@ -44,6 +44,10 @@ nav li {
     font-size: 15px;
 }
 
+nav li:hover {
+    color: #1BD720;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -53,4 +57,150 @@ nav ul {
 
 .dash {
     font-weight: lighter;
+}
+
+main {
+    background-color: #2941AB;
+    color: #1BD720;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    background-position: center center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.content h1 {
+    font-size: 150px;
+    margin: 0 auto;
+    line-height: 160px;
+    letter-spacing: -5px;
+}
+
+.left {
+    padding-right: 150px;
+}
+
+.right {
+    padding-left: 150px;
+}
+
+.content p {
+    padding: 25px;
+}
+
+.content button {
+    background-color: #1BD720;
+    color:#2941AB;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+.footer-container {
+    margin: 60px 130px;
+}
+
+.top-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.icons {
+    flex: 1;
+}
+
+.links .columns li {
+    list-style: none;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.links .columns h3 {
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.icons i {
+    font-size: 50px;
+    color: #fff;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+.links ul {
+    padding: 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.left-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.left-footer li {
+    color: #919496;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.bottom-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.right-footer i,
+.right-footer p,
+.right-footer a {
+    color: #919496;
+    font-size: 12px;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right-footer .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-footer .top a:hover {
+    color: #1BD720;
+}
+.right-footer .top a {
+    padding-left: 5px;
 }
